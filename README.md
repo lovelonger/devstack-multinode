@@ -1,8 +1,8 @@
 # devstack-multinode
 devstack安装多节点openstack环境
 
-一个controller,两个compute
-
+一个 controller ,多个 compute 只需多个 compute-local.conf 的实例
+ 
 # 一些加速配置
 1. 配置本地源（系统源和epel）或者使用阿里云的源
 2. 跳过安装epel， devstack 每次运行的时候都会安装 epel (卸载已安装的)，因为已经配置了本地源，这一步跳过
